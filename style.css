@@ -1,38 +1,97 @@
-.Box{
+body{
+    margin: 0;
+}
+
+textarea{
+    display: block;
+    margin: 10px auto;
+    width: 770px;
     height: 300px;
-    width: 700px;
-    position: absolute;
-    top: 150px;
-    left: 25%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.Box{
+    height: 270px;
+    width: 750px;
+    padding: 10px;
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: solid black 2px;
+    border-radius: 5px;
+    color: #fff;
+    background: #888888;
+    text-align: center;
+    line-height: 40px;
 }
 
 .Ln{
     display: flex;
     justify-content: space-between;
-    text-align: center;
     vertical-align: middle;
+    column-gap: 5px;
 }
+
 .Symb{
-    border: solid #000 2px;
-    border-radius: 15px;
+    border: solid #444 2px;
+    border-radius: 3px;
+    background: #444;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s , border-radius 0.3s;
+
 }
 .Tab{
-    width: 80px;
+    width: 100px;
+    background-color: #222222;
+    border: solid #222222 2px;
 }
 .Caps{
     width: 80px;
+    background-color: #222222;
+    border: solid #222222 2px;
 }
 .Shift{
-    width: 80px;
+    width: 120px;
+    background-color: #222222;
+    border: solid #222222 2px;
 }
 .Space{
-    width: 300px;
+    width: 350px;
+    background-color: #222222;
+    border: solid #222222 2px;
+}
+.backspace{
+    width: 80px;
+    background-color: #222222;
+    border: solid #222222 2px;
+}
+.Enter{
+    width: 120px;
+    background-color: #222222;
+    border: solid #222222 2px;
+}
+.ctrl{
+    background-color: #222222;
+    border: solid #222222 2px;
+}
+.win{
+    background-color: #222222;
+    border: solid #222222 2px;
+}
+.alt{
+    background-color: #222222;
+    border: solid #222222 2px;
+}
+.cmd{
+    background-color: #222222;
+    border: solid #222222 2px;
 }
 .Symb:hover{
     background-color: rgb(107, 107, 107);
+
+    transition: background-color 0.3s , border-radius 0.3s;
 }
