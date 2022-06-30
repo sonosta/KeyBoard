@@ -1,0 +1,38 @@
+.Box{
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Ln{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+}
+.Symb{
+    border: solid #000 2px;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+}
+.Tab{
+    width: 80px;
+}
+.Caps{
+    width: 80px;
+}
+.Shift{
+    width: 80px;
+}
+.Space{
+    width: 300px;
+}
+.Symb:hover{
+    background-color: rgb(107, 107, 107);
+}
