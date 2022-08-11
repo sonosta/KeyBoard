@@ -30,7 +30,7 @@ textarea{
 
 .Ln{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     vertical-align: middle;
     column-gap: 5px;
 }
@@ -42,57 +42,89 @@ textarea{
     width: 40px;
     height: 40px;
     cursor: pointer;
-    transition: background-color 0.3s , border-radius 0.3s;
-
+    transition: background-color 0.3s;
 }
+.del{
+    border: solid #222 2px;
+    border-radius: 3px;
+    background: #222222;
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
 .Tab{
     width: 100px;
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
 }
 .Caps{
     width: 80px;
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
 }
 .Shift{
     width: 120px;
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
 }
 .Space{
-    width: 350px;
+    width: 380px;
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
 }
 .backspace{
     width: 80px;
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
 }
 .Enter{
     width: 120px;
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
 }
 .ctrl{
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
+    width: 50px;
+    height: 40px;
 }
 .win{
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
 }
 .alt{
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
 }
 .cmd{
     background-color: #222222;
     border: solid #222222 2px;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
 }
 .Symb:hover{
     background-color: rgb(107, 107, 107);
-
     transition: background-color 0.3s , border-radius 0.3s;
+}
+
+.spec:hover{
+    background-color: rgb(107, 107, 107);
+    transition: background-color 0.3s , border-radius 0.3s;
+    cursor: pointer;
 }
